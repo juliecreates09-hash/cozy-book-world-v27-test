@@ -1,0 +1,1 @@
+V7: 14 rezeptbezogene Hero-Bilder R02–R15 eingebunden. R01 mitgeliefert; Butterplätzchen-Seite unverändert. Alle übrigen HTML/CSS/JS-Dateien unverändert. Keine Live-Veröffentlichung. Rezeptdaten- und Browsertests weiterhin offen.

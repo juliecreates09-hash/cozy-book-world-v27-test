@@ -1,0 +1,1 @@
+V19: Added Spritzgebaeck, Engelsaugen, Nussecken in EN-US and ES. 7/15 recipe HTML pages per language now drafted. German source unchanged. Final editorial translation audit, page QA and print QA remain open. No deployment.

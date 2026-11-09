@@ -1,0 +1,1 @@
+V17: First three recipe pages translated in EN-US and ES (vanillekipferl, zimtsterne, kokosmakronen). 12 remaining recipes per language are NOT yet translated. German source remains unchanged. Localized print cards and step checkboxes included for these 3 recipes. No deployment.

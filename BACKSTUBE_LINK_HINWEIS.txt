@@ -1,0 +1,1 @@
+Die Backstuben-Illustration besitzt einen echten anklickbaren Link auf backstube/index.html. Die fertige Backstuben-Unterseite ist NICHT in diesem Paket enthalten; sie muss vor Veröffentlichung an diesem Pfad integriert werden. Kein Live-Upload. EN/ES: Deutsches Bild wird zugunsten eines Text-Fallbacks ausgeblendet.

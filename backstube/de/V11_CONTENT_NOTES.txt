@@ -1,0 +1,1 @@
+Neu: lebkuchenhaus-bauhilfe.html (Druckhinweise, 28-cm-Bodenplatten-Klarstellung, 6 interaktive Bau-Schritte, Druckbutton). Einzige Bestandsänderung: Link in lebkuchenhaus.html. Keine Design- oder Rezeptänderungen; kein Deployment.

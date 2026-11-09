@@ -1,0 +1,1 @@
+Gezielte Inhaltsnavigation: PDF-/Bauhilfe-Karten auf Lebkuchenhaus-Seite; Link in PDF auf relative Bauhilfe-HTML. Relative PDF-Links sind PDF-Viewer-abhaengig und muessen nach Hosting mit absoluter Website-URL ersetzt werden. Kein sonstiger Designumbau.

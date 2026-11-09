@@ -1,0 +1,1 @@
+Gezielter Patch: nur EN-US sichtbare Temperatur-Kennzahlen der vier statischen Batch-01-Rezepte. Celsius unverändert; Fahrenheit mathematisch exakt (140C=284F, 180C=356F). Kein Master/Asset geändert. Keine vollständige Fach- oder Druckfreigabe.

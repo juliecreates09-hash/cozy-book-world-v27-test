@@ -1,0 +1,1 @@
+V18: Added Spitzbuben EN-US and ES. Other 11 recipes per language not yet translated. German original untouched. Browser QA and editorial review outstanding. No deployment.

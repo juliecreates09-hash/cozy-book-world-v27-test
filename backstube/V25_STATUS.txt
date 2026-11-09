@@ -1,0 +1,8 @@
+V25 TARGETED CONTENT REPAIR — PARTIAL PATCH, NOT RELEASE READY
+Source: V24 working files (v24_testsite).
+Apply these HTML files over the corresponding paths in the complete V24 package.
+Repairs: clearly German Spanish introductory paragraphs, damaged automatic-conversion notice,
+German optional-tip notice, damaged Spanish word “química”.
+No German source, images, temperatures, quantities or baking times intentionally changed.
+Not a full sentence-by-sentence translation audit. No browser or print-layout certification.
+STATUS: NO-GO.

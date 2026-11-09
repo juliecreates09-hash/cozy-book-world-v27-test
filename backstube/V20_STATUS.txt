@@ -1,0 +1,1 @@
+V20: Added Schoko-Crossies, Haselnussmakronen, Schwarz-Weiss-Gebaeck, Orangen-Schoko-Taler in EN-US and ES. 11/15 recipe HTML drafts per language. Original DE source unchanged. Supplementary editorial sections are not fully localized. Browser, print, editorial and recipe accuracy QA pending. No deployment.

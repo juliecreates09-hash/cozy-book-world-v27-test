@@ -1,0 +1,1 @@
+V21: All 15 recipe HTML pages per language now exist as draft translations. DE source unchanged. Butterplaetzchen dynamic recipe uses localized DE-master amounts and six steps; print card dynamically localized without source attribution. This is not a final editorial/functional/browser/print QA. No deployment.

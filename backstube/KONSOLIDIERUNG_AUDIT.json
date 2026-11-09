@@ -1,0 +1,104 @@
+{
+  "base": "Wichtelbackstube_GATE05_GESAMTTEST_KOMPAKT.zip",
+  "patch_order": [
+    "GATE05_LEBKUCHENHAUS_DEKO_GEPRUEFTER_REPARATURBATCH.zip",
+    "GATE05_FAMILIENAKTIVITAETEN_12_SEITEN_PATCH.zip",
+    "GATE05_REGRESSIONSREPARATUR_STARTSEITEN_DE_EN_ES.zip"
+  ],
+  "html_pages": 69,
+  "total_files": 304,
+  "overridden_files": 30,
+  "unresolved_local_references": [
+    [
+      "de/butterplaetzchen.html",
+      "${stepImages[i]}",
+      "de/${stepImages[i]}"
+    ],
+    [
+      "de/familien-backnachmittag.html",
+      "impressum.html",
+      "de/impressum.html"
+    ],
+    [
+      "de/familien-backnachmittag.html",
+      "datenschutz.html",
+      "de/datenschutz.html"
+    ],
+    [
+      "de/index.html",
+      "impressum.html",
+      "de/impressum.html"
+    ],
+    [
+      "de/index.html",
+      "datenschutz.html",
+      "de/datenschutz.html"
+    ],
+    [
+      "de/plaetzchen-geschenktueten.html",
+      "impressum.html",
+      "de/impressum.html"
+    ],
+    [
+      "de/plaetzchen-geschenktueten.html",
+      "datenschutz.html",
+      "de/datenschutz.html"
+    ],
+    [
+      "de/plaetzchen-tauschrunde.html",
+      "impressum.html",
+      "de/impressum.html"
+    ],
+    [
+      "de/plaetzchen-tauschrunde.html",
+      "datenschutz.html",
+      "de/datenschutz.html"
+    ],
+    [
+      "de/plaetzchen-verzieren.html",
+      "impressum.html",
+      "de/impressum.html"
+    ],
+    [
+      "de/plaetzchen-verzieren.html",
+      "datenschutz.html",
+      "de/datenschutz.html"
+    ],
+    [
+      "en/butterplaetzchen.html",
+      "${stepImages[i]}",
+      "en/${stepImages[i]}"
+    ],
+    [
+      "en/index.html",
+      "impressum.html",
+      "en/impressum.html"
+    ],
+    [
+      "en/index.html",
+      "datenschutz.html",
+      "en/datenschutz.html"
+    ],
+    [
+      "es/butterplaetzchen.html",
+      "${stepImages[i]}",
+      "es/${stepImages[i]}"
+    ],
+    [
+      "es/index.html",
+      "impressum.html",
+      "es/impressum.html"
+    ],
+    [
+      "es/index.html",
+      "datenschutz.html",
+      "es/datenschutz.html"
+    ]
+  ],
+  "unresolved_reference_count": 17,
+  "notes": [
+    "V4 PDFs are bundled separately; existing page links were not automatically rewritten.",
+    "Static inspection only; no browser or baking test.",
+    "No live site changes."
+  ]
+}

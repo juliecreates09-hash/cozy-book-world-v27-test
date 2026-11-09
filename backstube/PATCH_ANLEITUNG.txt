@@ -1,0 +1,1 @@
+V22 PATCH: extract on top of V21 root. This is not a standalone website. German master remains in V21 unchanged. Localized editorial and functional QA pending.

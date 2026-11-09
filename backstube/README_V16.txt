@@ -1,0 +1,1 @@
+V16: DE V15 unchanged as source. Localized EN-US and ES homepages with working language switch. Recipe, gingerbread, decoration and family activity translations NOT yet produced; unavailable links disabled. No deployment. Final audit pending.\n

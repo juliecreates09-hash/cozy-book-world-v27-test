@@ -1,0 +1,1 @@
+S01 bestehendes Originalbild; eigene Rezeptseite mit acht Checkboxen und separater Druckkarte; Hub-Verlinkung. Keine neue Bildgenerierung, kein Redesign, kein Deployment. Fachliche Detailprüfung, mobile QA und finaler Audit zurückgestellt. Druckbare Hausschablonen sind nicht enthalten.

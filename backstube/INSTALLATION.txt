@@ -1,0 +1,8 @@
+GATE 05 – Familienaktivitäten DE/EN/ES
+
+ZIP im lokalen Testordner entpacken und vorhandene Dateien ersetzen.
+Enthält 3 Startseiten und 12 Aktivitätsseiten.
+DE: bereits ausgearbeitete Originalanleitungen bleiben erhalten.
+EN/ES: jeweils vier neue lokalisierte Unterseiten mit Druckansicht.
+Bilddateien werden aus dem bestehenden Testordner referenziert; diese ZIP ist ein Patch, keine komplette Website.
+Keine Veröffentlichung. Kein Backtest.

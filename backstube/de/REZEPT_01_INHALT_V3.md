@@ -1,0 +1,1 @@
+Rezept 01: 250 g Mehl, 125 g Butter, 100 g Zucker, 1 Ei, 1 Päckchen Vanillezucker, 1 Prise Salz. Dekoration: 100 g Puderzucker, 1–2 EL Wasser/Zitronensaft, Streusel. 175 °C Ober-/Unterhitze, 9–12 Minuten je Blech, mindestens 30 Minuten Kühlzeit. Sechs Schritte integriert. Nicht praktisch getestet; keine Live-Veröffentlichung. Layout V2 unverändert.

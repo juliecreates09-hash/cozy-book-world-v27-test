@@ -1,0 +1,59 @@
+{
+  "sources_in_order": [
+    "Wichtelbackstube_KONSOLIDIERUNG_ARBEITSSTAND_20261103.zip",
+    "GATE05_LEBKUCHENHAUS_V4_LINKS_PATCH.zip",
+    "GATE05_RECHTSTEXTE_WIEDERHERGESTELLT_DE_EN_ES.zip"
+  ],
+  "files": 312,
+  "html_pages": 75,
+  "missing_static_refs": [],
+  "legal_refs": 26,
+  "legal_refs_resolved": 26,
+  "pdf_refs": [
+    [
+      "de/familien-backnachmittag.html",
+      "de/Kruemels_Weihnachts_Backcheckliste_A4_V14.pdf",
+      true
+    ],
+    [
+      "de/lebkuchenhaus-bauhilfe.html",
+      "de/Gingerbread_House_Templates_DE_A4_V2.pdf",
+      true
+    ],
+    [
+      "de/lebkuchenhaus.html",
+      "de/Gingerbread_House_Templates_DE_A4_V2.pdf",
+      true
+    ],
+    [
+      "de/plaetzchen-geschenktueten.html",
+      "de/Kruemels_Geschenkanhaenger_A4_V14.pdf",
+      true
+    ],
+    [
+      "en/lebkuchenhaus.html",
+      "en/Gingerbread_House_Templates_A4_V4.pdf",
+      true
+    ],
+    [
+      "en/lebkuchenhaus-bauhilfe.html",
+      "en/Gingerbread_House_Templates_A4_V4.pdf",
+      true
+    ],
+    [
+      "es/lebkuchenhaus.html",
+      "es/Gingerbread_House_Templates_A4_V4.pdf",
+      true
+    ],
+    [
+      "es/lebkuchenhaus-bauhilfe.html",
+      "es/Gingerbread_House_Templates_A4_V4.pdf",
+      true
+    ]
+  ],
+  "limits": [
+    "No live browser testing",
+    "No legal content certification",
+    "No baking test"
+  ]
+}

@@ -1,0 +1,1 @@
+V24 restores missing printSheet DOM from the German master layout using translated visible ingredient rows and instructions. Does not change German pages, source imagery, or original ingredient quantities. Corrects Spanish print note. This is a structural repair only; translation and browser print-layout review remain open. NO-GO.

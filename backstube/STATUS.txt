@@ -1,0 +1,1 @@
+V26 targeted localization patch. Overlay on V24+V25; only exact German unit/size tokens in visible text nodes replaced. Not a semantic audit. NO-GO. No original DE/assets changed.

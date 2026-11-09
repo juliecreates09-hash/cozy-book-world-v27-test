@@ -1,0 +1,11 @@
+GATE 05 – GEZIELTER REPARATURBATCH (lokale Prüfung)
+
+1. Drei PDF-Schablonensätze DE/EN/ES: pro Bauteil eindeutige Schnittmenge (1 Stück).
+2. Rezept- und Bauhilfeseiten DE/EN/ES aus dem letzten Konsistenzpatch (rechteckige Basis, 9-seitige Schablonen).
+3. Englische Startseite mit funktionierenden nativen Sprungankern und sichtbarer Zielmarkierung.
+
+Installation: ZIP-Inhalt in die WURZEL des lokalen Website-Testordners entpacken, Dateien überschreiben. Anschließend Browser hart neu laden (Strg+F5).
+
+Prüfen: EN-Startseite: drei Links führen zu jeweils einer hervorgehobenen Dekorationskarte. Lebkuchenhaus: PDF zeigt 9 Seiten; Basis 240 × 210 mm. Kalibrierlinie ausgedruckt messen.
+
+Nicht freigegeben: Praktischer Test von Backteilen und Statik weiterhin offen. Keine Live-Veröffentlichung.

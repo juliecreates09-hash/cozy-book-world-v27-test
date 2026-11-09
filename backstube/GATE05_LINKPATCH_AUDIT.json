@@ -1,0 +1,11 @@
+{
+  "result": "4 PDF links updated",
+  "changed_files": {
+    "en/lebkuchenhaus.html": "Gingerbread_House_Templates_EN-US_A4_V2.pdf -> Gingerbread_House_Templates_A4_V4.pdf",
+    "en/lebkuchenhaus-bauhilfe.html": "Gingerbread_House_Templates_EN-US_A4_V2.pdf -> Gingerbread_House_Templates_A4_V4.pdf",
+    "es/lebkuchenhaus.html": "Gingerbread_House_Templates_ES-ES_A4_V2.pdf -> Gingerbread_House_Templates_A4_V4.pdf",
+    "es/lebkuchenhaus-bauhilfe.html": "Gingerbread_House_Templates_ES-ES_A4_V2.pdf -> Gingerbread_House_Templates_A4_V4.pdf"
+  },
+  "not_fixed": "Legal notice/privacy policy links point to missing local files in all three languages; no legally authoritative pages supplied, so no fabricated legal text or destination.",
+  "testing": "Static link existence checked; no browser or baking test; live site untouched."
+}

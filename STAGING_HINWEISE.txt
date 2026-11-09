@@ -1,0 +1,23 @@
+COZY BOOK WORLD V2.7 – GETRENNTE GITHUB-PAGES-TESTVERSION
+
+Dieses Paket ist ausschließlich für ein separates Test-Repository gedacht.
+NICHT in das bestehende Repository cozy-book-world hochladen.
+
+Empfohlener Repository-Name: cozy-book-world-v27-test
+Bei GitHub Pages: Settings > Pages > Deploy from a branch > main / (root).
+Erwartete Testadresse (erst nach Anlage und Aktivierung):
+https://juliecreates09-hash.github.io/cozy-book-world-v27-test/
+
+WICHTIG: GitHub Pages kann auch bei einem privaten Repository öffentlich erreichbar sein.
+Die robots.txt und noindex-Metadaten sind keine Zugriffssperre.
+Cloudflare Web Analytics ist in dieser TESTFASSUNG absichtlich deaktiviert.
+Die produktive V2.7 muss Analytics weiterhin enthalten.
+
+TESTABLAUF
+1. Startseite öffnen; DE/EN/ES wechseln; Hauptnavigation und Rechtstexte prüfen.
+2. Aus jeder Sprache die Backstube öffnen und zur jeweiligen Buchwelt zurückgehen.
+3. Je Sprache eine Rezeptseite prüfen: Zutatenrechner, Checkboxen, Druckansicht.
+4. Desktop und Mobilansicht prüfen (375px und 768px Breite).
+5. Wichtelstreiche-Link prüfen. ACHTUNG: Rücklink aus der LIVE-Wichtelstreiche-Website führt noch zur LIVE-Buchwelt, nicht zum Staging.
+6. Erst nach vollständigem Audit und Freigabe die PRODUKTIVFASSUNG verwenden.
+
