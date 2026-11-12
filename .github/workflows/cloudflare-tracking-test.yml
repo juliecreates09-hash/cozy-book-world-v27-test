@@ -1,0 +1,42 @@
+name: Cloudflare tracking patch (test only)
+on:
+  push:
+    paths:
+      - '.github/workflows/cloudflare-tracking-test.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Preview changes
+        run: python3 scripts/cloudflare_tracking_patch.py
+      - name: Apply tracking to missing HTML pages
+        run: python3 scripts/cloudflare_tracking_patch.py --apply
+      - name: Validate one tracking script per HTML page
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          root = Path(".")
+          failures = []
+          for p in root.rglob("*.html"):
+              if any(part in {".git","node_modules","vendor","dist","build"} for part in p.parts): continue
+              content = p.read_bytes()
+              count = content.count(b"static.cloudflareinsights.com/beacon.min.js")
+              if count != 1: failures.append(f"{p}: {count} beacons")
+          if failures: raise SystemExit("\n".join(failures))
+          print("GREEN: exactly one Cloudflare beacon per HTML file")
+          PY
+      - name: Commit test changes only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.html'
+          if ! git diff --cached --quiet; then
+            git commit -m "Instrument missing Cloudflare analytics on V2.7 test pages"
+            git push
+          fi
