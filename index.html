@@ -302,23 +302,23 @@ if(t){for(const [id,key] of Object.entries({"localized-bakery-title":"bt","local
 </script><script>/* V2.7.1 mobile book invitation localization */
 (function(){const copy={DE:['✨ Entdecke unsere Weihnachtsbücher ✨','Wichtelgeschichten, Malbücher und gemütliche Familienmomente.','Unsere Bücher entdecken'],EN:['✨ Discover Our Christmas Books ✨','Elf stories, coloring books, and cozy family moments.','Explore Our Books'],ES:['✨ Descubre nuestros libros de Navidad ✨','Cuentos de duendes, libros para colorear y momentos en familia.','Descubrir nuestros libros']};function sync(){const lang=document.getElementById('lang')?.value||'DE';const t=copy[lang]||copy.DE;['mobile-books-heading','mobile-books-copy','mobile-books-link'].forEach((id,i)=>{const e=document.getElementById(id);if(e)e.textContent=t[i]})}document.addEventListener('DOMContentLoaded',()=>{sync();document.getElementById('lang')?.addEventListener('change',sync)})})();</script><!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "359d171d53cd46aea940a671a553da5c"}'></script><!-- End Cloudflare Web Analytics -->
 <script>window.COZY_CONVERSION_ENDPOINT="https://cozy-book-tracking.julie-creates09.workers.dev/event";</script><script src="conversion-tracking/client.js" defer></script>
-<!-- Krümel V18: isolated staging integration; no visitor test controls -->
+<!-- Krümel V19: extended visibility staging integration; no visitor test controls -->
 <style id="cw-kruemel-style">
 #cw-kruemel{position:fixed;z-index:30;right:12px;bottom:max(14px,env(safe-area-inset-bottom));max-width:min(37vw,260px);max-height:min(48vh,330px);object-fit:contain;opacity:0;pointer-events:none;filter:drop-shadow(0 5px 7px #34221633)}
-#cw-kruemel.cw-active{animation:cw-kruemel-arrive 4.05s linear forwards}
-@keyframes cw-kruemel-arrive{0%{opacity:0;transform:translateY(15px) scale(.95)}7%,92%{opacity:1;transform:none}100%{opacity:0;transform:translateY(7px)}}
+#cw-kruemel.cw-active{animation:cw-kruemel-arrive 9s linear forwards}
+@keyframes cw-kruemel-arrive{0%{opacity:0;transform:translateY(15px) scale(.95)}3%,94%{opacity:1;transform:none}100%{opacity:0;transform:translateY(7px)}}
 @media(max-width:600px){#cw-kruemel{max-width:48vw;max-height:37vh;bottom:max(42px,env(safe-area-inset-bottom))}}
 @media(prefers-reduced-motion:reduce){#cw-kruemel{display:none!important}}
 </style>
-<script id="cw-kruemel-v18">
+<script id="cw-kruemel-v19">
 (()=>{'use strict';
 const base='https://juliecreates09-hash.github.io/cozy-book-world/kruemel-test/assets/';
 const assets=['hallo.gif','mehl.gif','schnee_transparent_apng.png','stern.gif','naschen.gif'];
 if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
 const elf=document.createElement('img');elf.id='cw-kruemel';elf.alt='';elf.setAttribute('aria-hidden','true');document.body.appendChild(elf);
 let shown=0,last=-1,elapsed=0,playing=false,prev=performance.now(),timeout;
-try{shown=Math.min(4,Math.max(0,Number(sessionStorage.getItem('cw_staging_v18_shown'))||0));last=Number(sessionStorage.getItem('cw_staging_v18_last')??-1)}catch(e){}
-function show(){if(playing||shown>=4||document.hidden)return;const choices=assets.map((_,i)=>i).filter(i=>i!==last);const i=choices[Math.floor(Math.random()*choices.length)];last=i;shown++;try{sessionStorage.setItem('cw_staging_v18_shown',String(shown));sessionStorage.setItem('cw_staging_v18_last',String(last))}catch(e){}playing=true;elf.classList.remove('cw-active');elf.removeAttribute('src');void elf.offsetWidth;elf.src=base+assets[i]+'?v='+Date.now();elf.classList.add('cw-active');clearTimeout(timeout);timeout=setTimeout(()=>{elf.classList.remove('cw-active');elf.removeAttribute('src');playing=false},4150)}
+try{shown=Math.min(4,Math.max(0,Number(sessionStorage.getItem('cw_staging_v19_shown'))||0));last=Number(sessionStorage.getItem('cw_staging_v19_last')??-1)}catch(e){}
+function show(){if(playing||shown>=4||document.hidden)return;const choices=assets.map((_,i)=>i).filter(i=>i!==last);const i=choices[Math.floor(Math.random()*choices.length)];last=i;shown++;try{sessionStorage.setItem('cw_staging_v19_shown',String(shown));sessionStorage.setItem('cw_staging_v19_last',String(last))}catch(e){}playing=true;elf.classList.remove('cw-active');elf.removeAttribute('src');void elf.offsetWidth;elf.src=base+assets[i]+'?v='+Date.now();elf.classList.add('cw-active');clearTimeout(timeout);timeout=setTimeout(()=>{elf.classList.remove('cw-active');elf.removeAttribute('src');playing=false},9150)}
 function tick(now){const dt=Math.max(0,Math.min(1000,now-prev));prev=now;if(!document.hidden&&!playing&&shown<4){elapsed+=dt;const wait=shown===0?3000:shown===1?20000:30000;if(elapsed>=wait){elapsed=0;show()}}requestAnimationFrame(tick)}
 document.addEventListener('visibilitychange',()=>{prev=performance.now()});requestAnimationFrame(tick);
 })();
